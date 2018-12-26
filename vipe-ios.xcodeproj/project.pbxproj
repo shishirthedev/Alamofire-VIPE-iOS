@@ -1,0 +1,540 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		52FB5DD3FE32B27F9F4E9B39 /* Pods_vipe_ios.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB661A461EE72377F45073C /* Pods_vipe_ios.framework */; };
+		FF257ABD21CD528300D9D039 /* APIs.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF257ABC21CD528300D9D039 /* APIs.swift */; };
+		FF257AC021CD602F00D9D039 /* UserTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF257ABF21CD602F00D9D039 /* UserTableViewCell.swift */; };
+		FF257AC421CD6CBE00D9D039 /* ErrorHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF257AC321CD6CBE00D9D039 /* ErrorHandler.swift */; };
+		FF48EFE221CAA1C7003B7888 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48EFE121CAA1C7003B7888 /* HomeViewController.swift */; };
+		FF48EFE421CAA1F7003B7888 /* HomeProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48EFE321CAA1F7003B7888 /* HomeProtocols.swift */; };
+		FF48EFE621CAA21B003B7888 /* HomePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48EFE521CAA21B003B7888 /* HomePresenter.swift */; };
+		FF48EFE821CAA29E003B7888 /* HomeInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48EFE721CAA29E003B7888 /* HomeInteractor.swift */; };
+		FF48EFEA21CAA5EE003B7888 /* UserReponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48EFE921CAA5EE003B7888 /* UserReponse.swift */; };
+		FF48EFEC21CAAFA6003B7888 /* BaseProtocols.swift in Sources */ = {isa = PBXBuildFile; fileRef = FF48EFEB21CAAFA6003B7888 /* BaseProtocols.swift */; };
+		FFE33AFF21CA9B990078B0EB /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE33AFE21CA9B990078B0EB /* AppDelegate.swift */; };
+		FFE33B0421CA9B990078B0EB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE33B0221CA9B990078B0EB /* Main.storyboard */; };
+		FFE33B0621CA9B9A0078B0EB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FFE33B0521CA9B9A0078B0EB /* Assets.xcassets */; };
+		FFE33B0921CA9B9A0078B0EB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FFE33B0721CA9B9A0078B0EB /* LaunchScreen.storyboard */; };
+		FFE4EA7021CC03BB00FEEB87 /* HomeWireframe.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4EA6F21CC03BB00FEEB87 /* HomeWireframe.swift */; };
+		FFE4EA7221CC104400FEEB87 /* AppConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4EA7121CC104400FEEB87 /* AppConstants.swift */; };
+		FFE4EA7421CC11DE00FEEB87 /* Connectivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4EA7321CC11DE00FEEB87 /* Connectivity.swift */; };
+		FFE4EA7621CC128C00FEEB87 /* AlamofireService.swift in Sources */ = {isa = PBXBuildFile; fileRef = FFE4EA7521CC128C00FEEB87 /* AlamofireService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		29E076828E2DCB667FC631F3 /* Pods-vipe-ios.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vipe-ios.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vipe-ios/Pods-vipe-ios.debug.xcconfig"; sourceTree = "<group>"; };
+		3AB661A461EE72377F45073C /* Pods_vipe_ios.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vipe_ios.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE5ED602F72FD16BBD8D0887 /* Pods-vipe-ios.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vipe-ios.release.xcconfig"; path = "Pods/Target Support Files/Pods-vipe-ios/Pods-vipe-ios.release.xcconfig"; sourceTree = "<group>"; };
+		FF257ABC21CD528300D9D039 /* APIs.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIs.swift; sourceTree = "<group>"; };
+		FF257ABF21CD602F00D9D039 /* UserTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewCell.swift; sourceTree = "<group>"; };
+		FF257AC321CD6CBE00D9D039 /* ErrorHandler.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErrorHandler.swift; sourceTree = "<group>"; };
+		FF48EFE121CAA1C7003B7888 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		FF48EFE321CAA1F7003B7888 /* HomeProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeProtocols.swift; sourceTree = "<group>"; };
+		FF48EFE521CAA21B003B7888 /* HomePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomePresenter.swift; sourceTree = "<group>"; };
+		FF48EFE721CAA29E003B7888 /* HomeInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeInteractor.swift; sourceTree = "<group>"; };
+		FF48EFE921CAA5EE003B7888 /* UserReponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserReponse.swift; sourceTree = "<group>"; };
+		FF48EFEB21CAAFA6003B7888 /* BaseProtocols.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseProtocols.swift; sourceTree = "<group>"; };
+		FFE33AFB21CA9B990078B0EB /* vipe-ios.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vipe-ios.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FFE33AFE21CA9B990078B0EB /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FFE33B0321CA9B990078B0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FFE33B0521CA9B9A0078B0EB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FFE33B0821CA9B9A0078B0EB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FFE33B0A21CA9B9A0078B0EB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FFE4EA6F21CC03BB00FEEB87 /* HomeWireframe.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeWireframe.swift; sourceTree = "<group>"; };
+		FFE4EA7121CC104400FEEB87 /* AppConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppConstants.swift; sourceTree = "<group>"; };
+		FFE4EA7321CC11DE00FEEB87 /* Connectivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Connectivity.swift; sourceTree = "<group>"; };
+		FFE4EA7521CC128C00FEEB87 /* AlamofireService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AlamofireService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FFE33AF821CA9B990078B0EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				52FB5DD3FE32B27F9F4E9B39 /* Pods_vipe_ios.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		5F3C8680F1099E8F4A39A22D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				29E076828E2DCB667FC631F3 /* Pods-vipe-ios.debug.xcconfig */,
+				FE5ED602F72FD16BBD8D0887 /* Pods-vipe-ios.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8577CC493F6552F5812A1A0E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AB661A461EE72377F45073C /* Pods_vipe_ios.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		FF257ABE21CD600400D9D039 /* table-view-cell */ = {
+			isa = PBXGroup;
+			children = (
+				FF257ABF21CD602F00D9D039 /* UserTableViewCell.swift */,
+			);
+			path = "table-view-cell";
+			sourceTree = "<group>";
+		};
+		FF48EFD521CA9FE4003B7888 /* view-controller */ = {
+			isa = PBXGroup;
+			children = (
+				FF48EFE021CAA152003B7888 /* home */,
+			);
+			path = "view-controller";
+			sourceTree = "<group>";
+		};
+		FF48EFD621CA9FF4003B7888 /* data */ = {
+			isa = PBXGroup;
+			children = (
+				FF48EFD721CA9FFF003B7888 /* network */,
+			);
+			path = data;
+			sourceTree = "<group>";
+		};
+		FF48EFD721CA9FFF003B7888 /* network */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4EA7321CC11DE00FEEB87 /* Connectivity.swift */,
+				FFE4EA7521CC128C00FEEB87 /* AlamofireService.swift */,
+				FF257AC321CD6CBE00D9D039 /* ErrorHandler.swift */,
+				FF257ABC21CD528300D9D039 /* APIs.swift */,
+			);
+			path = network;
+			sourceTree = "<group>";
+		};
+		FF48EFD921CAA01D003B7888 /* base */ = {
+			isa = PBXGroup;
+			children = (
+				FF48EFEB21CAAFA6003B7888 /* BaseProtocols.swift */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		FF48EFE021CAA152003B7888 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				FF48EFE121CAA1C7003B7888 /* HomeViewController.swift */,
+				FF48EFE321CAA1F7003B7888 /* HomeProtocols.swift */,
+				FF48EFE521CAA21B003B7888 /* HomePresenter.swift */,
+				FF48EFE721CAA29E003B7888 /* HomeInteractor.swift */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		FFE33AF221CA9B990078B0EB = {
+			isa = PBXGroup;
+			children = (
+				FFE33AFD21CA9B990078B0EB /* vipe-ios */,
+				FFE33AFC21CA9B990078B0EB /* Products */,
+				5F3C8680F1099E8F4A39A22D /* Pods */,
+				8577CC493F6552F5812A1A0E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		FFE33AFC21CA9B990078B0EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FFE33AFB21CA9B990078B0EB /* vipe-ios.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FFE33AFD21CA9B990078B0EB /* vipe-ios */ = {
+			isa = PBXGroup;
+			children = (
+				FF48EFD921CAA01D003B7888 /* base */,
+				FF48EFD521CA9FE4003B7888 /* view-controller */,
+				FFE4EA6E21CBFF2200FEEB87 /* wire-frame */,
+				FFE4EA6C21CBFECA00FEEB87 /* entity */,
+				FF48EFD621CA9FF4003B7888 /* data */,
+				FF257ABE21CD600400D9D039 /* table-view-cell */,
+				FFE4EA6D21CBFEF000FEEB87 /* utils */,
+				FFE33AFE21CA9B990078B0EB /* AppDelegate.swift */,
+				FFE33B0221CA9B990078B0EB /* Main.storyboard */,
+				FFE33B0521CA9B9A0078B0EB /* Assets.xcassets */,
+				FFE33B0721CA9B9A0078B0EB /* LaunchScreen.storyboard */,
+				FFE33B0A21CA9B9A0078B0EB /* Info.plist */,
+			);
+			path = "vipe-ios";
+			sourceTree = "<group>";
+		};
+		FFE4EA6C21CBFECA00FEEB87 /* entity */ = {
+			isa = PBXGroup;
+			children = (
+				FF48EFE921CAA5EE003B7888 /* UserReponse.swift */,
+			);
+			path = entity;
+			sourceTree = "<group>";
+		};
+		FFE4EA6D21CBFEF000FEEB87 /* utils */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4EA7121CC104400FEEB87 /* AppConstants.swift */,
+			);
+			path = utils;
+			sourceTree = "<group>";
+		};
+		FFE4EA6E21CBFF2200FEEB87 /* wire-frame */ = {
+			isa = PBXGroup;
+			children = (
+				FFE4EA6F21CC03BB00FEEB87 /* HomeWireframe.swift */,
+			);
+			path = "wire-frame";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FFE33AFA21CA9B990078B0EB /* vipe-ios */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FFE33B0D21CA9B9B0078B0EB /* Build configuration list for PBXNativeTarget "vipe-ios" */;
+			buildPhases = (
+				38B2EE01A7F35639A1C2AE84 /* [CP] Check Pods Manifest.lock */,
+				FFE33AF721CA9B990078B0EB /* Sources */,
+				FFE33AF821CA9B990078B0EB /* Frameworks */,
+				FFE33AF921CA9B990078B0EB /* Resources */,
+				B9B1F79CA99E25AC92BC57CE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vipe-ios";
+			productName = "Template-App-iOS";
+			productReference = FFE33AFB21CA9B990078B0EB /* vipe-ios.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FFE33AF321CA9B990078B0EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = Shishir;
+				TargetAttributes = {
+					FFE33AFA21CA9B990078B0EB = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = FFE33AF621CA9B990078B0EB /* Build configuration list for PBXProject "vipe-ios" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FFE33AF221CA9B990078B0EB;
+			productRefGroup = FFE33AFC21CA9B990078B0EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FFE33AFA21CA9B990078B0EB /* vipe-ios */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FFE33AF921CA9B990078B0EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE33B0921CA9B9A0078B0EB /* LaunchScreen.storyboard in Resources */,
+				FFE33B0621CA9B9A0078B0EB /* Assets.xcassets in Resources */,
+				FFE33B0421CA9B990078B0EB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		38B2EE01A7F35639A1C2AE84 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vipe-ios-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B9B1F79CA99E25AC92BC57CE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-vipe-ios/Pods-vipe-ios-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/AlamofireObjectMapper/AlamofireObjectMapper.framework",
+				"${BUILT_PRODUCTS_DIR}/ObjectMapper/ObjectMapper.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/AlamofireObjectMapper.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/ObjectMapper.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vipe-ios/Pods-vipe-ios-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FFE33AF721CA9B990078B0EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FFE4EA7221CC104400FEEB87 /* AppConstants.swift in Sources */,
+				FF257AC021CD602F00D9D039 /* UserTableViewCell.swift in Sources */,
+				FF48EFE421CAA1F7003B7888 /* HomeProtocols.swift in Sources */,
+				FFE4EA7621CC128C00FEEB87 /* AlamofireService.swift in Sources */,
+				FFE4EA7021CC03BB00FEEB87 /* HomeWireframe.swift in Sources */,
+				FF257AC421CD6CBE00D9D039 /* ErrorHandler.swift in Sources */,
+				FF48EFE621CAA21B003B7888 /* HomePresenter.swift in Sources */,
+				FFE33AFF21CA9B990078B0EB /* AppDelegate.swift in Sources */,
+				FF48EFE221CAA1C7003B7888 /* HomeViewController.swift in Sources */,
+				FFE4EA7421CC11DE00FEEB87 /* Connectivity.swift in Sources */,
+				FF257ABD21CD528300D9D039 /* APIs.swift in Sources */,
+				FF48EFE821CAA29E003B7888 /* HomeInteractor.swift in Sources */,
+				FF48EFEA21CAA5EE003B7888 /* UserReponse.swift in Sources */,
+				FF48EFEC21CAAFA6003B7888 /* BaseProtocols.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		FFE33B0221CA9B990078B0EB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE33B0321CA9B990078B0EB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FFE33B0721CA9B9A0078B0EB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FFE33B0821CA9B9A0078B0EB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FFE33B0B21CA9B9B0078B0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FFE33B0C21CA9B9B0078B0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FFE33B0E21CA9B9B0078B0EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 29E076828E2DCB667FC631F3 /* Pods-vipe-ios.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NGW94SZ7K3;
+				INFOPLIST_FILE = "$(SRCROOT)/vipe-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shishirstudio.vipe-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FFE33B0F21CA9B9B0078B0EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FE5ED602F72FD16BBD8D0887 /* Pods-vipe-ios.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NGW94SZ7K3;
+				INFOPLIST_FILE = "$(SRCROOT)/vipe-ios/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.shishirstudio.vipe-ios";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FFE33AF621CA9B990078B0EB /* Build configuration list for PBXProject "vipe-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE33B0B21CA9B9B0078B0EB /* Debug */,
+				FFE33B0C21CA9B9B0078B0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FFE33B0D21CA9B9B0078B0EB /* Build configuration list for PBXNativeTarget "vipe-ios" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FFE33B0E21CA9B9B0078B0EB /* Debug */,
+				FFE33B0F21CA9B9B0078B0EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FFE33AF321CA9B990078B0EB /* Project object */;
+}
